@@ -1,23 +1,11 @@
 package com.helloever.test;
 
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
-import java.util.Map;
-
-import org.ansj.domain.Term;
-import org.ansj.splitWord.analysis.BaseAnalysis;
-import org.jdom2.Document;
-import org.jdom2.Element;
 import org.jdom2.JDOMException;
-import org.jdom2.output.Format;
-import org.jdom2.output.XMLOutputter;
-
 import com.helloever.db.dao.Dao;
-import com.helloever.tool.FileTool;
 import com.helloever.tool.ScientistFileStructured;
-import com.helloever.www.Java2XML;
 
 public class T {
 

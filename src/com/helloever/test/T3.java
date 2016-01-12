@@ -1,9 +1,4 @@
 package com.helloever.test;
-import java.io.File;   
-
-import java.io.FileOutputStream;   
-
-import java.io.*;   
 import java.sql.SQLException;
 import java.util.List;
 
@@ -11,8 +6,6 @@ import org.ansj.domain.Term;
 import org.ansj.splitWord.analysis.BaseAnalysis;
 import org.ansj.splitWord.analysis.NlpAnalysis;
 import org.ansj.splitWord.analysis.ToAnalysis;
-
-import com.helloever.db.dao.Dao;
 
 public class T3 {   
 

@@ -57,7 +57,8 @@ public class DbUtil {
         return null;
     }
     
-    protected void finalize() throws Throwable {
+    @Override
+	protected void finalize() throws Throwable {
           DataSources.destroy(cpds);
           super.finalize();
     }

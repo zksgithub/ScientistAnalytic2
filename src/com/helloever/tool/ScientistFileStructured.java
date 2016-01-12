@@ -12,8 +12,6 @@ import java.util.List;
 import java.util.Map;
 
 import org.ansj.domain.Term;
-import org.ansj.splitWord.analysis.BaseAnalysis;
-import org.ansj.splitWord.analysis.NlpAnalysis;
 import org.ansj.splitWord.analysis.ToAnalysis;
 import org.jdom2.Document;
 import org.jdom2.Element;
